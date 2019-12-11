@@ -20,5 +20,5 @@
     What is the name of the table that the state of the resources are stored in? cfn-res-mgr-dev-state
     Which javascript library is used to draw the icons? Paperjs?
     Which headers need to be present from the API server to allow for CORS? Access-Control-Allow-Origin and Access-Control-Allow-Credentials.
-    What common ID type is used for the physical resource ID?
+    What common ID type is used for the physical resource ID? the ID from the DDB table?
     Do custom resource lambda functions require IAM permissions to interact with cloudformation (not including the IAM managed role permission in AWSLambdaBasicExecutionRole)? apparently not?
